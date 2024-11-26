@@ -26,6 +26,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 - **Frontend**:
   - React
   - Tailwind CSS
+  - HTML
 - **Build Tool**:
   - Vite
 - **Version Control**:
