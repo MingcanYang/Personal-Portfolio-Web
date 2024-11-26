@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 
 const TypeWriter = ({ text, speed = 120 }) => {
-  const [displayedText, setDisplayedText] = useState(""); // Store typed text
-  const [index, setIndex] = useState(0); // Current index of the text
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     if (index < text.length) {
       const timer = setTimeout(() => {
-        setDisplayedText((prev) => prev + text.charAt(index)); // Add next character
-        setIndex((prev) => prev + 1); // Move to the next character
+        setDisplayedText((prev) => prev + text.charAt(index));
+        setIndex((prev) => prev + 1);
       }, speed);
 
-      return () => clearTimeout(timer); // Clear the timer when unmounted or updated
+      return () => clearTimeout(timer);
     }
   }, [index, text, speed]);
 
