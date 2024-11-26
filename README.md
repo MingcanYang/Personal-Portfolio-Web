@@ -1,11 +1,7 @@
 # Personal Portfolio Website
-- project-folder/
-  - README.md
-  - screenshots/
-    - 01.png
-    - 02.png
-    - 03.png
-    - 04.png
+![Homepage Screenshot](Screenshots/01.png)
+
+![Projects Section Screenshot](Screenshots/02.png)
 
 Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects, reflecting my journey and aspirations as a Web Developer.
 
