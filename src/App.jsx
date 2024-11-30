@@ -1,3 +1,8 @@
+/*
+Copyright (c) 2024 Mingcan Yang
+Licensed under the MIT License. See LICENSE file for details.
+*/
+
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code2, Briefcase, GraduationCap, User, MessageSquare } from 'lucide-react';
 import TypeWriter from './animation.jsx';
