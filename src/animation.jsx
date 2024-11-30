@@ -1,3 +1,8 @@
+/*
+Copyright (c) 2024 Mingcan Yang
+Licensed under the MIT License. See LICENSE file for details.
+*/
+
 import React, { useState, useEffect } from "react";
 
 const TypeWriter = ({ text, speed = 120 }) => {
